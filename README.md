@@ -1,6 +1,6 @@
 # 🤖 Syekh Audio: Chatbot AI Pembelajaran Maharah Istima' (Tingkat Menengah)
 
-Proyek ini merupakan Ujian Akhir Semester (UAS) untuk mata kuliah Pembelajaran Bahasa Arab Berbasis AI. Aplikasi ini adalah sebuah chatbot interaktif berbasis terminal (CLI) yang dirancang menggunakan Python dan terintegrasi dengan Google Gemini API untuk membantu memfasilitasi pembelajaran mandiri Bahasa Arab.
+Proyek ini merupakan Ujian Akhir Semester (UAS) untuk mata kuliah Pembelajaran Bahasa Arab Berbasis AI. Aplikasi ini adalah sebuah chatbot interaktif berbasis web (streamlit) yang dirancang menggunakan Python dan terintegrasi dengan Google Gemini API untuk membantu memfasilitasi pembelajaran mandiri Bahasa Arab.
 
 ---
 
@@ -49,3 +49,8 @@ Kloning repositori GitHub ini ke komputer lokal Anda:
 ```bash
 git clone [https://github.com/USERNAME_ANDA/NAMA_REPOSITORI.git](https://github.com/USERNAME_ANDA/NAMA_REPOSITORI.git)
 cd NAMA_REPOSITORI
+## 🛠️ Cara Menjalankan Aplikasi
+1. Install library yang dibutuhkan:
+   `pip install -r requirements.txt`
+2. Jalankan perintah:
+   `python -m streamlit run app.py`
